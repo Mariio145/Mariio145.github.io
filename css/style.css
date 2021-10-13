@@ -61,7 +61,7 @@
   justify-content: space-between; }
 
 .main-navigation {
-  color: #fff;
+  color: pink;
   display: none;
   position: fixed;
   height: 100%;
@@ -78,7 +78,7 @@
     padding: 3%;
     border: 2px solid #fff;
     border-radius: 7px;
-    background-color: #c18f59; }
+    background-color: blue; }
     .main-navigation .main-navigation__ul li {
       margin-bottom: 20px;
       list-style: none; }
@@ -308,7 +308,7 @@
   width: 390px;
   padding: 8px;
   text-align: center;
-  background-color: #fff; }
+  background-color: red; }
   .portfolio-wrapper .portfolio__img {
     font-size: 0; }
     .portfolio-wrapper .portfolio__img img {
