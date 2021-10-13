@@ -357,7 +357,7 @@
   margin-right: 80px;
   text-align: center; }
   .about-me__text .universal-h2 {
-    color: #fff;
+    color: green;
     padding-bottom: 20px;
     margin-bottom: 25px; }
   .about-me__text p {
@@ -366,7 +366,7 @@
     color: #c18f59; }
     .about-me__text p span {
       font-size: 48px;
-      color: #fff; }
+      color: red; }
     @media (max-width: 620px) {
       .about-me__text p {
         margin-bottom: 20px;
@@ -375,7 +375,7 @@
   .about-me__text h4 {
     margin-bottom: 7px;
     font-size: 25px;
-    color: #c18f59; }
+    color: blue; }
   .about-me__text .p-white {
     margin-bottom: 0;
     color: #fff; }
