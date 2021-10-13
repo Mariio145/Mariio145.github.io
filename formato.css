@@ -1,3 +1,6 @@
 h1 {color: red}
+h1 em {color : red}
 #Tit1 {color: green}
+#Tit1 em {color: green}
 .Prueba2 {color: orange}
+.Prueba2 em {color: orange}
