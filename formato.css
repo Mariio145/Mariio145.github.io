@@ -1,6 +1,9 @@
 h1 {color: red}
-#1 b {color : red}
 #Tit1 {color: green}
-#2 b {color: green}
 .Prueba2 {color: orange}
-#3 b {color: orange}
+
+.Texto1 b {color: red}
+.Texto2 b {color: green}
+.Texto3 b {color: orange}
+.Texto4 b {color: pink}
+.Texto5 b {color: purple}
