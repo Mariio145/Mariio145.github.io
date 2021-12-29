@@ -5,44 +5,44 @@
 	<meta name="keywords" content="portfolio,Mario,UJI">
 	<meta name="author" content="Mario Beltrán García / Original design by andreasviklund.com">
 	<link rel="stylesheet" type="text/css" href="./Plantilla_files/basic-noise.css" title="Basic Noise" media="all">
-	<title>Contacto</title>
+	<title>Contact</title>
 
 <body>
 <div id="container980">
 	<div id="header">
-		<h1><a href="https://mariio145.github.io/Examen/Presentación">Portfolio de Mario Beltrán</a></h1>
-		<h2>Bienvenido a mi trabajo</h2>
+		<h1><a href="https://mariio145.github.io/Examen/Presentación">Mario Beltrán</a></h1>
+		<h2>Welcome to my portfolio</h2>
 	</div>
 	<div id="menu"> 
 		<ul>     
-			<li><a href="https://mariio145.github.io/Examen/Presentación">Presentación</a></li>
-			<li><a href="https://mariio145.github.io/Examen/Proyectos">Proyectos</a></li>
-			<li><a href="https://mariio145.github.io/Examen/Arte">Arte</a></li>
-			<li><a class="current"  href="https://mariio145.github.io/Examen/Contacto">Contacto</a></li>
+			<li><a href="https://mariio145.github.io/Examen/Presentación">Presentation</a></li>
+			<li><a href="https://mariio145.github.io/Examen/Proyectos">Projects</a></li>
+			<li><a href="https://mariio145.github.io/Examen/Arte">Art</a></li>
+			<li><a class="current"  href="https://mariio145.github.io/Examen/Contacto">Contact me</a></li>
 		</ul>
 	</div>
 
 	<div id="main">
 		<div id="content">
-			<h2>Contacto</h2>
-			<p>Aquí tendrás disponible mucha información de utilidad en caso de querer contactar conmigo, ademàs de la posibilidad de mandarme un mensaje directamente.</p>
+			<h2>Contact</h2>
+			<p>Here you would have some information in case you want to contact me. Also you have the possibility to send me directly a message.</p>
 
 		<div style="display: block;">
 			<div>
 				<h3>Mario Beltrán García</h3>
-				<p>Valencia, España</p>
+				<p>Valencia, Spain</p>
 				<p>Web: mariio145.github.io/Examen/Presentación<br>
-					E-mail: mario20032001@gmail.com</p>
+					E-mail: al415384@uji.es</p>
 				<p>Móvil: +34 601 42 19 43<br></p>
 			</div>
 
 			<div>
 				<h3>Send a message</h3>
 				<form id="contactform">
-					<p><label for="name">Nombre: <br></label><input type="text" name="name" id="name"></p>
+					<p><label for="name">Name: <br></label><input type="text" name="name" id="name"></p>
 					<p><label for="email">E-mail: <br></label><input type="text" name="email" id="email"></p>
-					<p><label for="message">Mensaje: <br></label><textarea rows="5" name="message" id="message"></textarea></p>
-					<p><input class="button" type="button" value="Submit"></p>
+					<p><label for="message">Message: <br></label><textarea rows="5" name="message" id="message"></textarea></p>
+					<p><input class="button" type="button" onclick="ClickBoton()" value="Submit"></p>
 				</form>
 			</div>
 
@@ -50,9 +50,16 @@
 	</div>
 
 	<div id="credits">
-		<p>© 2022 Mario Beltrán García | Pagina diseñada por <a href="http://andreasviklund.com/">Andreas Viklund</a><br></p>
+		<p>© 2022 Mario Beltrán García | Web designed by<a href="http://andreasviklund.com/">Andreas Viklund</a><br></p>
 	</div>
 </div>
 
 
-</body></html>
+</body>
+<script languaje="javascript">
+	function ClickBoton(){
+		alert("Se ha enviado los datos correctamente.")
+		window.location.assign("https://mariio145.github.io/Examen/Presentación")
+	}
+</script>
+</html>

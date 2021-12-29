@@ -36,7 +36,9 @@ rig{float:right;width:50%;}
 #feature{background-color:#eee;color:#555;padding:25px 25px 5px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
 #feature h2{color:#d84580;font-size:2em;line-height:1em;}
 #feature p{font-size:1.3em;margin:0 0 15px 0; line-height:1.5em;}
-#feature img{display:block;margin:0 auto;}
+#feature img{margin:0 auto;}
+#feature .izq{margin-left:12% ;}
+#feature .der{margin-right:12% ;float:right}
 
 #main{clear:both;margin:0;background-color:#fff;padding:25px 25px 5px;}
 #content{width:100%;}
@@ -50,3 +52,5 @@ rig{float:right;width:50%;}
 .clear{clear:both;visibility:hidden;}
 .small{font-size:0.7em;}
 .dibujo{margin-bottom: 20px;}
+.izq{margin-left:50%}
+.der{margin-right: 50px;}
